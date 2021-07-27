@@ -1,0 +1,30 @@
+/* blog */
+
+body {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.blogpost { 
+    width: 300px; 
+    border: 1px solid black;
+    align-items:center ;
+    
+}
+
+#blog1, #blog5 {
+    flex-grow: 1;
+    
+}
+
+#blog2, #blog4 {
+    align-self:flex-start;
+}
+
+#blog3{
+    align-self:flex-end;
+}
+
+/* einde flex oefening */
+
